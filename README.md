@@ -79,6 +79,11 @@ The formula used to calculate the salary range is as follows:
 Salary Range = MAX(K2:K6275) - MIN(K2:K6275)= (269,250.18 - 5,666.96) = $263,583.22
 
 ## Data visualization (Share Phases)
+* Visualization is a powerful tool for gaining insights from data. Some possible ways to visualize this data include:
+Histograms or box plots of salary distributions,  
+Line charts of salary trends over time,  
+Scatterplots to explore the relationship between salary and other variables, such as gender or position
+
 * To find Salary Distributions, i used Rstudio (R programming language) to visualize my data.
 * After loading my packages: library (tidyverse),(lubridate),(dplyr),(ggplot2),(readr),(tidyr),(here),(skimr),(janitor).
 * I imported my clean data to Rstudio with this code: library(readr)
@@ -90,7 +95,17 @@ Allegheny_County_Employee_Salaries_Allegheny_County_Employee_Salaries_2022_1_ <-
 * labs(title= "salary distributions")+
 * xlab("salary")+
 * ylab("count")
-* 
+* ![](https://github.com/ReginaldAnthony/Allegheny-County-Employee-Salariy-analysis/blob/master/Rplot.jpeg)
+
+### Line charts of salary trends over time.
+* To visualize the salary trends over time i used this code:
+* ggplot(data=salaries)+
+* geom_line(mapping=aes(x=date_started, y=annual_salary))+
+* labs(title="salary trends overtime")+
+* xlab("year")+
+* ylab("salary")
+
+
 
 
 
