@@ -113,7 +113,8 @@ Allegheny_County_Employee_Salaries_Allegheny_County_Employee_Salaries_2022_1_ <-
 * labs(title="relationship between salary & gender")+
 * xlab("salary")+
 * ylab("gender")
-* 
+* ![](https://github.com/ReginaldAnthony/Allegheny-County-Employee-Salariy-analysis/blob/master/Rplot03.jpeg)
+* Alpha refers to the opacity of a geom.
 
 
 
