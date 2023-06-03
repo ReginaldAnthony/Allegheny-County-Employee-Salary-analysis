@@ -82,7 +82,7 @@ Salary Range = MAX(K2:K6275) - MIN(K2:K6275)= (269,250.18 - 5,666.96) = $263,583
 * Visualization is a powerful tool for gaining insights from data. Some possible ways to visualize this data include:
 Histograms or box plots of salary distributions,  
 Line charts of salary trends over time,  
-Scatterplots to explore the relationship between salary and other variables, such as gender or position
+Scatterplots to explore the relationship between salary and other variables, such as gender.
 
 * To find Salary Distributions, i used Rstudio (R programming language) to visualize my data.
 * After loading my packages: library (tidyverse),(lubridate),(dplyr),(ggplot2),(readr),(tidyr),(here),(skimr),(janitor).
@@ -104,7 +104,16 @@ Allegheny_County_Employee_Salaries_Allegheny_County_Employee_Salaries_2022_1_ <-
 * labs(title="salary trends overtime")+
 * xlab("year")+
 * ylab("salary")
+* ![](https://github.com/ReginaldAnthony/Allegheny-County-Employee-Salariy-analysis/blob/master/Rplot01.jpeg)
 
+### Scatterplots to explore the relationship between salary and other variables, such as gender.
+* to visualize the relationship between salary and gender i used scatterplots, i used this code:
+* ggplot(data=salaries)+
+* geom_point(mapping=aes(x=annual_salary, y=sex, alpha=0.5))+
+* labs(title="relationship between salary & gender")+
+* xlab("salary")+
+* ylab("gender")
+* 
 
 
 
