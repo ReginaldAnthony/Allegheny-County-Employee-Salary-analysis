@@ -1,6 +1,9 @@
 # Allegheny-County-Employee-Salary-analysis
 
 ## Project Overview
+Allegheny County (Pennsylvania) and the City of Pittsburgh both publish their data through the Western Pennsylvania Regional Data Center. The Western Pennsylvania Regional Data Center supports key community initiatives by making public information easier to find and use. The Data Center maintains Allegheny County and the City of Pittsburgh’s open data portal, and provides a number of services to data publishers and users. The Data Center also hosts datasets from these and other public sector agencies, academic institutions, and non-profit organizations. The Data Center is managed by the University of Pittsburgh’s Center for Social and Urban Research, and is a partnership of the University, Allegheny County and the City of Pittsburgh.
+
+
 The goal of this project is to analyze the annual salary and pay data for employees under the County Executive and independently elected County officials. The dataset spans from 2016 to the present and is updated twice per year, with files available for December and June. The dataset includes information on annual salary, regular pay, incentive pay, and gross pay for the employees.
 
 ## Questions for the Analysis (Ask phase)
@@ -141,7 +144,12 @@ Scatterplots to explore the relationship between salary and other variables, suc
 
 
 ## Conclusions & Recommandations
-* In conclusion, the comprehensive salary analysis provides insights into the varying levels of responsibility and expertise associated with different positions. The findings facilitate informed decision-making regarding compensation policies and practices, ensuring fairness, competitiveness, and alignment with job roles. Analyzing salary trends over time and exploring the relationship between salary and gender supports proactive measures to address potential disparities and biases. The salary range serves as a valuable tool for assessing the diversity and distribution of salaries, enabling organizations to make informed decisions regarding compensation policies, salary adjustments, and workforce planning.
+* In conclusion, the comprehensive salary analysis provides insights into the varying levels of responsibility and expertise associated with different positions. The findings facilitate informed decision-making regarding compensation policies and practices, ensuring fairness and it was determined that there are no significant gender or racial disparities in salary. 
+
+* In addition, it is important to note that fair and unbiased compensation practices contribute to creating an inclusive and diverse work environment. However, the analysis highlights a potential underrepresentation of American Indian/Alaskan Native individuals in the dataset. This finding suggests the need to explore strategies for promoting diversity and inclusion within the organization, such as actively recruiting and employing individuals from underrepresented backgrounds. By actively promoting diversity and inclusion, organizations can build a stronger and more representative workforce, fostering creativity, innovation, and enhanced problem-solving capabilities. Embracing diversity in all its forms contributes to a more equitable and harmonious work environment, ultimately driving organizational success.
+
+*  Analyzing salary trends over time and exploring the relationship between salary and gender supports proactive measures to address potential disparities and biases showing there are no bias between salary and gender and there's an increase in salary up to 7.7% in the company. The salary range serves as a valuable tool for assessing the diversity and distribution of salaries, enabling organizations to make informed decisions regarding compensation policies, salary adjustments, and workforce planning.
+
 
 * Thank you very much for your interest in my Case Study!
 * And I would appreciate any comments and recommendations for improvement!
