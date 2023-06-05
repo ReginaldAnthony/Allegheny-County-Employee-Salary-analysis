@@ -33,7 +33,7 @@ Succesfully downloaded and Imported the dataset to (googlesheets/excel) then pre
 Now that all the data is stored appropriately and has been prepared for analysis, I can start putting it to work;
 
 * In the analysis of salaries within the dataset, it was determined that the average salary for the County Executive position is $142,339.18. This average is consistent with the actual salary for the County Executive, as there is only one individual occupying this role.
-On the other hand, there are five independently elected county officials within the dataset. To calculate their average annual salary, the individual salaries were summed and divided by the number of officials using the AVERAGE fuction. The sum of the annual salaries for these officials is as follows: (196119.04 + 113406.80 + 142339.18 + 113407.84 + 113406.80 + )/5 = $135,735.93
+On the other hand, there are five independently elected county officials within the dataset. To calculate their average annual salary, the individual salaries were summed and divided by the number of officials using the AVERAGE fuction. The sum of the annual salaries for these officials is as follows: (196119.04 + 113406.80 + 142339.18 + 113407.84 + 113406.80 )/5 = $135,735.93
 
 * The director in the 'health' department has the highest salary by sorting the annual salary from Z-A =($269,250.18)
 * Based on the provided information, the starting salary of the director of the 'health' department was $250,000, and the salary as of 2022 increased to $269,250. To determine the percentage increase in salary over the given time period, we can follow the calculation steps.
